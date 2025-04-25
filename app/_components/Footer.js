@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-12 border-t border-primary-800 pt-8 pb-6 text-sm">
+    <footer className="mt-6 border-t border-primary-800 pt-2 pb-3 text-sm">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Brand Message */}
         <div>
@@ -74,7 +74,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="mt-8 text-center text-primary-500">
+      <div className="mt-4 text-center text-primary-500">
         © {new Date().getFullYear()} NextBlog. Crafted with ❤️ and Next.js.
       </div>
     </footer>

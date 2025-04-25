@@ -19,6 +19,7 @@ const eslintConfig = [
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
     },
+    //
   },
 ];
 
